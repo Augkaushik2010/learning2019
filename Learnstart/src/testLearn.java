@@ -21,7 +21,7 @@ public class testLearn {
 		driver.findElement(By.name("reg_email__")).sendKeys("kaushikaug8@gmail.com");
 		driver.findElement(By.name("reg_email_confirmation__")).sendKeys("kaushikaug8@gmail.com");
 		driver.findElement(By.name("reg_passwd__")).sendKeys("Apr11Rvn");
-		driver.findElement(By.name("birthday_day")).sendKeys("15");
+		//driver.findElement(By.name("birthday_day")).sendKeys("15");
 		driver.findElement(By.name("birthday_month")).sendKeys("Aug");
 		driver.findElement(By.name("birthday_year")).sendKeys("2010");
 		driver.findElement(By.xpath("//input[@value='Male']")).click();
