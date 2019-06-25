@@ -10,7 +10,7 @@ public class testLearn {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Projects\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
-		driver.get("http://www.facebook.com");
+		driver.get("http://www.facebook23.com");
 		//System.out.println(driver.getTitle());
 		//driver.close();
 		driver.findElement(By.name("email")).click();
